@@ -28,5 +28,3 @@ export const postsApi = createApi({
 });
 
 export const { useGetPostsQuery, useGetPostsByIdQuery } = postsApi;
-
-export const dataInStore = postsApi.endpoints.getPosts.select(0);

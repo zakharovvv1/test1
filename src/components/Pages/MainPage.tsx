@@ -10,6 +10,7 @@ const MainPage = () => {
     page: 0,
     limit: limit,
   });
+  console.log(limit);
 
   useEffect(() => {
     document.addEventListener("scroll", scrollHandler);
