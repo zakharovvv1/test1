@@ -1,6 +1,6 @@
 import Post from "../Posts/Post/Post";
 import { IPost } from "../Posts/Post/types/typesPost";
-import { dataInStore, useGetPostsQuery } from "../Posts/api/postsApi";
+import { useGetPostsQuery } from "../Posts/api/postsApi";
 import { useEffect } from "react";
 import HandlerScroll from "./Model/HandlerScroll/HandlerScroll";
 
