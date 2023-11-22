@@ -6,7 +6,6 @@ const HandlerScroll = () => {
   const scrollHandler = (): void => {
     if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
       setLimit((prev) => (prev === 100 ? 100 : prev + 10));
-      console.log("Низ");
     }
   };
 

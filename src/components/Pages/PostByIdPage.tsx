@@ -5,7 +5,7 @@ import useCustomNavigate from "../Posts/Post/model/navigate";
 const PostByIdPage = () => {
   const { navigate } = useCustomNavigate();
   const { id } = useParams();
-  console.log(id);
+
   const { data, isLoading } = useGetPostsByIdQuery(id);
 
   if (isLoading) {

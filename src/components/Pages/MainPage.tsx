@@ -11,7 +11,6 @@ const MainPage = () => {
     limit: limit,
   });
 
-  console.log(dataInStore);
   useEffect(() => {
     document.addEventListener("scroll", scrollHandler);
 
