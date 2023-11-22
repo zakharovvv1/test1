@@ -1,0 +1,16 @@
+.body {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.postBody {
+  padding: 15px;
+  background-color: antiquewhite;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
