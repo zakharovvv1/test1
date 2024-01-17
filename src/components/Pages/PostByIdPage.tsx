@@ -2,7 +2,6 @@ import { Link, useParams } from "react-router-dom";
 import { useGetPostsByIdQuery } from "../Posts/api/postsApi";
 
 const PostByIdPage = () => {
-  console.log('fdf')
   const { id } = useParams();
 
   const { data, isLoading } = useGetPostsByIdQuery(id);
