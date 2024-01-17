@@ -5,6 +5,7 @@ const PostByIdPage = () => {
   const { id } = useParams();
 
   const { data, isLoading } = useGetPostsByIdQuery(id);
+  console.log('dsdsdsdds')
 
   if (isLoading) {
     return <h1>Загрузка поста...</h1>;
